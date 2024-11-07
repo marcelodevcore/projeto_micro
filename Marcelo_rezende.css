@@ -1,0 +1,400 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+
+
+:root {
+
+    --color_01:#D10363;
+    --color_02:#FF9A00;
+    --color_03:#FFBF00;    
+    --color_04:#808836;
+    --color_05:#fff;
+    --color_06:#636363;    
+    --color_07:#000;
+    --color_08:rgba(255, 255, 255, 0.72);
+    --color_09:rgb(245, 245, 245);
+    
+
+} 
+
+
+
+.header1 {
+    margin:0;
+    padding:15px 0px 15px 0px;
+    background-color: var(--color_02);
+    justify-items: center;
+    align-items: center;
+    
+}
+
+.footer {
+
+    margin:0;
+    padding:50px 0px 50px 0px;
+    font-style: italic;
+    background-color: var(--color_01);
+
+
+}
+
+#div_city {
+    border-left:solid var(--color_01) 4px;
+    padding:100px 100px 100px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--color_05);
+    text-align: right;
+    background-image: url("img/city.png");
+    background-position: center;
+}
+
+#h1 {
+    color:var(--color_05);
+    font-style: italic;
+    border-bottom: solid var(--color_01) 8px;
+    font-size:100px;
+    font-weight: bold;
+}
+
+#p {
+    color:var(--color_05);
+    font-weight: lighter;
+    font-size:50px;
+
+}
+
+#button {
+    font-size: 30px;
+    color:var(--color_05);
+    background-color: var(--color_01);
+    margin-top: 35px;
+    padding: 20px 50px 20px 50px;
+    border:solid var(--color_01);
+
+    
+
+
+}
+#button2 {
+    font-size: 30px;
+    color:var(--color_05);
+    background-color: var(--color_01);
+    margin-top: 35px;
+    padding: 15px 25px 15px 25px;
+    border:solid var(--color_01);
+
+    
+
+
+}
+#button3 {
+    font-size: 30px;
+    color:var(--color_05);
+    background-color: var(--color_01);
+    margin-top: 35px;
+    padding: 15px 25px 15px 25px;
+    border:solid var(--color_01);
+
+    
+
+
+}
+
+#button4 {
+    font-size: 50px;
+    color:var(--color_05);
+    background-color: var(--color_01);
+    margin-top: 35px;
+    padding: 20px 50px 20px 50px;
+    border:solid var(--color_01);
+
+    
+
+
+}
+
+#button5 {
+    font-size: 50px;
+    color:var(--color_05);
+    background-color: var(--color_01);
+    margin-top: 35px;
+    padding: 20px 50px 20px 50px;
+    border:solid var(--color_01);
+
+    
+
+
+}
+
+#button6 {
+    font-weight: 600;
+    font-size: 16px;
+    color:var(--color_05);
+    background-color: var(--color_01);
+    margin-top: 35px;
+    padding: 10px 30px 10px 30px;
+    border:solid var(--color_01);
+
+    
+
+
+}
+
+.div_ed {
+
+    padding-top:20px;
+}
+
+.p_t {
+    font-size: 20px;
+    font-style: italic;
+    
+}
+
+
+#text_footer {
+    font-weight: 400;
+    color:var(--color_08)
+
+}
+
+#li_image1 {
+    background-image: url('img/faze_g.svg');
+
+}
+#li_image2 {
+    background-image: url('img/insta_g.svg');
+
+}
+
+#li_image3 {
+    background-image: url('img/x_g.svg');
+
+}
+
+
+
+
+.nav{
+    background-color: var(--color_01);
+
+}
+
+#custom_link {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:400;
+    color:var(--color_05)
+
+}
+
+
+#custom_h1{
+    align-items: center;
+    border-left:solid var(--color_01) 10px;
+    font-style: italic;
+    text-align: left;
+    font-weight: bold;
+    font-size: 50px;
+    
+
+}
+#custom_h1_2{
+    font-style: italic;
+    justify-items: center;
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+  /
+
+
+}
+
+#custom_p{
+    margin-top: 20px;
+    text-align: left;
+    font-weight: 400;
+    font-size: 25px;
+    
+    
+
+}
+
+#custom_p_2{
+    text-align: center;
+    font-weight: 400;
+    font-size: 25px;
+   
+    
+
+}
+
+.custom_h1_2{
+    font-style: italic;
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+ 
+    
+
+}
+
+.last_custom {
+    justify-items: center;
+    align-items: center;
+}
+
+.back {
+    color: var(--color_05);
+    justify-items: center;
+    text-align: center;
+    background-color: var(--color_02);
+}
+
+.back2 {
+    margin:0;
+    color:var(--color_05);
+    background-color: var(--color_02);
+
+}
+.back3 {
+    color:var(--color_05);
+    background-color: var(--color_02);
+
+}
+
+.twitter {
+    padding: 80px 10px 80px 10px;
+    font-weight: 400;
+    font-size: 20px;
+    color:var(--color_05);
+    background-color:var(--color_07);
+    justify-items: center;
+    align-items: center;
+
+
+
+}
+.twitter2 {
+    margin:10px;
+    padding: 20px 15px 20px 15px;
+    font-weight: 400;
+    font-size: 20px;
+    color:var(--color_05);
+    background-color:var(--color_07);
+    justify-items: center;
+    align-items: center;
+
+
+
+}
+
+.logo_rosa{
+    padding-left: 100px;
+
+    
+}
+
+#border {
+    border-left:solid var(--color_03) 18px;
+    border-right:solid var(--color_03) 18px;
+
+}
+
+.body_custom{
+    background-color: var(--color_09);
+    color: var(--color_06);
+
+}
+.title_post{
+    margin-top: 20px;
+    color:  var(--color_01);
+    text-align: center;
+    font-weight: bold;
+    font-size: 60px;
+
+}
+.title_post2{
+    margin-top: 5px;
+    color:  var(--color_01);
+    text-align: center;
+    font-weight: bold;
+    font-size: 90px;
+
+}
+
+.subtitle_post {
+    color: var(--color_06);
+    text-align: center;
+    font-size: 20px;
+
+}
+
+.img_justify_post {
+    justify-items: center;
+
+}
+
+.justify_post {
+    text-align:left;
+
+}
+
+.title_card {
+    color:  var(--color_07);
+
+}
+
+
+.img_card  {
+    background-color: var(--color_02);
+
+}
+
+.border_card {
+    border-left:solid var(--color_01) 10px ;
+
+}
+
+.p_font {
+    list-style: none;
+    font-style: none;
+    font-size: 16px;
+
+
+}
+.p_font2 {
+    list-style: none;
+    font-style:normal;
+    font-size: 20px;
+
+
+}
+.p_font3 {
+    list-style: none;
+    font-style:normal;
+    font-size: 25px;
+
+
+}
+
+.margin_conf {
+    margin-left:1100px;
+
+
+}
+
+.list {
+    list-style: disc;
+}
+
+
+
+
+
+
+

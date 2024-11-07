@@ -1,0 +1,240 @@
+MANUAL CSS >> 
+
+----------- ----------- ------------ ----------- ----------- ------------ ---------
+
+>> padding / margin: 
+
+- margin: 25px 50px 75px 100px;
+
+> top margin is 25px
+> right margin is 50px
+> bottom margin is 75px
+> left margin is 100px
+
+- margin: 25px 50px;
+
+> top and bottom margins are 25px
+> right and left margins are 50px
+
+
+
+- Using margin, you can set the margin property to auto to horizontally center the element within its container:
+
+div {
+  width: 300px;
+  margin: auto;
+  border: 1px solid red;
+}
+
+
+
+- inherit Let the left margin be inherited from the parent element:
+
+div {
+  border: 1px solid red;
+  margin-left: 100px;
+}
+
+p.ex1 {
+  margin-left: inherit;
+}
+
+
+
+- Individual Sides:
+
+p {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px;
+}
+
+
+
+----------- ----------- ------------ ----------- ----------- ------------ ---------
+
+>> Background Image example: 
+
+BG_image {
+  background-image: url("bgdesert.jpg");
+
+}
+
+----------- ----------- ------------ ----------- ----------- ------------ --------- 
+
+
+>> Variables examples: 
+
+
+:root{
+    --color_01:#e0752d;
+    --color_02:#db5011;
+    --color_03:#150f11;    
+    --color_04:#fff;
+    --color_05:#898ca9;
+    --color_06:#f7dd6a;    
+    --color_07:#4c4c52;
+}
+
+.BG2 {
+
+    background-color: var(--color_01)
+
+}
+
+
+----------- ----------- ------------ ----------- ----------- ------------ --------- 
+
+
+>> Tag example: 
+
+- No CSS;  
+
+#img1 {
+    Background-image: url(../img/tam.jpg)
+}
+
+- Chamando no HTML; 
+
+<figure id="img1" class="img-container">
+                        
+
+
+----------- ----------- ------------ ----------- ----------- ------------ --------- 
+
+
+
+>> Flexbox properties: 
+
+
+- Justifying elements at the center;
+
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+}
+
+- Align elements at the left;
+
+.flex-container {
+  display: flex;
+  justify-content: flex-start;
+}
+
+- Justifying elements at the right;
+
+.flex-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+---------------------------------
+
+- Aligning content (alinha as linhas dentro do container):
+
+.flex-container {
+  display: flex;
+  height: 600px;
+  flex-wrap: wrap;
+  align-content: space-between;
+
+}
+
+  .flex-container {
+  display: flex;
+  height: 600px;
+  flex-wrap: wrap;
+  align-content: space-around;
+}
+
+
+.flex-container {
+  display: flex;
+  height: 600px;
+  flex-wrap: wrap;
+  align-content: stretch;
+}
+
+.flex-container {
+  display: flex;
+  height: 600px;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.flex-container {
+  display: flex;
+  height: 600px;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+
+.flex-container {
+  display: flex;
+  height: 600px;
+  flex-wrap: wrap;
+  align-content: flex-end;
+}
+
+
+- Aligning items (alinha os items dentro do container):
+
+.flex-container {
+  display: flex;
+  height: 200px;
+  align-items: center;
+}
+
+.flex-container {
+  display: flex;
+  height: 200px;
+  align-items: center;
+}
+
+.flex-container {
+  display: flex;
+  height: 200px;
+  align-items: flex-start;
+}
+
+.flex-container {
+  display: flex;
+  height: 200px;
+  align-items: flex-end;
+}
+
+.flex-container {
+  display: flex;
+  height: 200px;
+  align-items: stretch;
+}
+
+.flex-container {
+  display: flex;
+  height: 200px;
+  align-items: baseline;
+}
+
+
+----------- ----------- ------------ ----------- ----------- ------------ --------- 
+
+
+
